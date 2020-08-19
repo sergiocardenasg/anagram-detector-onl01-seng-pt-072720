@@ -10,6 +10,6 @@ class Anagram
   def match(arr)
     if arr.each {|word| word == anagram}
       return anagram
-    end 
+    end
   end
 end
