@@ -8,8 +8,8 @@ class Anagram
   end
 
   def match(arr)
-    if arr.each {|word| word == anagram.reverse}
-      return anagram.reverse
+    if arr.each {|word| word} == anagram.reverse
+      return
     end
   end
 end
